@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        First Webpage
+    </title>
+</head>
+<body>
+    <!-- Basic Formatting Tags-->
+
+    <h1>Heading 1</h1> 
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Hello Freinds.<hr><br> How are You?</p>
+
+    <p>Lorem <b>ipsum</b> <strong>dolor</strong> <i>sit</i> amet <em>consectetur</em> adipisicing elit. Veniam sapiente dicta quo quia <mark>aspernatur</mark> culpa odio obcaecati repellat <small>aperiam</small> ipsa ipsam asperiores, provident <del>veritatis</del> earum non eaque dignissimos ipsum sint.</p>
+    <p>H<sub><small>2</small></sub>O</p>
+    <p>Algebraic equation of highest power 2 is :- x<sup><small>2</small></sup>+2x+3
+    </p>
+
+    <!-- Links and Navigation Tags -->
+
+    <a href="https://www.google.com/"> GO TO GOOGLE</a>
+    <a href="tel: +919170120100">Call</a>
+    <a href = "mailto: shukladeva82@gmail.com">Mail me</a>
+    <a href = "sms: +91-9170120100"> SMS </a>
+
+    <!-- Media Tags -->
+
+    <img src = "https://unsplash.com/photos/a-close-up-of-a-vibrant-red-flower-in-darkness-Ai19ZIc3G7I" alt = "Here is the image "/>
+
+    <audio src=""></audio>
+    <video src = ""></video>
+
+    <iframe src = "https://www.youtube.com/embed/v=k2aUyhmz5rY&list=RDk2aUyhmz5rY&start_radio=1" frameborder = "0"></iframe>
+
+    <!--List Tags-->
+        <!-- <ul>-> Unodered list-->
+            <ul>
+                <li>Item A </li>
+                <li>Item B</li>
+            </ul>
+        <!--<ol> -> Ordered list-->
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ol>
+            <!--<li> -> list items -->
+        <br>
+        <hr>
+                <!--Table -->
+    <table border="2">
+        <caption>Food Items</caption>
+
+        <colgroup>
+            <col style = "background-color: lightpink;">
+            <col style = "background-color: lightgreen;">
+            <col style = "background-color: lightblue;">
+        </colgroup>
+        <thead>
+            <tr>
+                
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maggie</td>
+                <td>30</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Chai</td>
+                <td>30</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Bisciut</td>
+                <td>30</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan = "2">Total Price</th>
+                <td>104</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <hr>
+
+    <!--Form Tags-->
+
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="Name">Name</label>
+            <input id = "Name" type="text" placeholder = "Enter Your Name:"><br><br>
+            <label for="Name">Email</label>
+            <input id = "Email" type="text" placeholder = "Enter Your Email:"><br><br>
+            
+           
+        </fieldset><br><br>
+        <label for="Name">Name</label>
+            <input id = "Name" type="text" placeholder = "Enter Your Name:">
+            <label for="Course">Select Course</label>
+        <select id="course">
+            <optgroup label = "Frontend">
+                <option value = "">Html </option>
+            <option value = "">CSS </option>
+            <option value = "">Js </option>
+            </optgroup>
+            <optgroup label = "Backend">
+                <option value = "">Node Js </option>
+            <option value = "">Express Js</option>
+            <option value = "">MongoDB </option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="Reviews">Reviews</label>
+        <textarea name="Reviews" id=""></textarea>
+        <button>Submit Form</button>
+    </form>
+    <br>
+    <hr>
+    <br>
+
+    <h1>Student Registration Form</h1>
+    <form >
+        <fieldset>
+            <legend>Personal Info.</legend>
+            <label for="Name">Name</label><br>
+            <input id = "Name" placeholder = "Enter Your Name"><br>
+            <label for="Email">Email</label><br>
+            <input id ="Email" placeholder = "Enter Your Email"><br>
+            <label for="Mobile No.">Mobile No.</label><br>
+            <input id="Number" placeholder = "Enter Your Number"><br>
+        </fieldset> <br> <br>
+
+        <fieldset>
+            <legend>Address Details</legend>
+            <label for="Address line 1"></label>
+            <textarea  id="Addressline1" rows="3"></textarea><br>
+            <br>
+
+            <label for="City">City</label>
+            <select  id="City">
+                <option >Kanpur</option>
+                <option >Gurugram</option>
+                <option >Noida</option>
+                <option >Lucknow</option>
+            </select>
+            <label for="Country">Country</label>
+            <select  id="Country">
+                <option >India</option>
+                <option >Pakistan</option>
+                <option >Nepal</option>
+                <option >Afghanistan</option>
+            </select>
+        </fieldset>
+
+    <br>
+    <br>
+    <label for = "courses">Select Courses</label>
+    <select id="courses">
+        <optgroup label = "Frontend">
+            <option >HTML</option>
+            <option >Css</option>
+            <option >Js</option>
+        </optgroup>
+         <optgroup label = "Backend">
+            <option >Node.js</option>
+            <option >Express.js</option>
+            <option >MongoDB</option>
+        </optgroup>
+    </select>
+    <br>
+    <br>
+
+    <button>Submit form</button>
+    </form>
+
+
+
+</body>
+</html>
