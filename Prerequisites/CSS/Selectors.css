@@ -1,10 +1,52 @@
-#diff{
+/*#diff{
     color: blue;
 }
-/*.hii{
+.hii{
     color: grey;
-}*/
+}*
 
-#h1,.h2,.p,span{
-    color:red;
+#h1, .h2, p, span {
+    color: red;
+}*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
 }
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.heading{
+    font-size:50px;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+}
+.subHeading{
+    font-size: 25px;
+    color: grey;
+    text-align:center;
+}
+.para{
+    /*text-decoration: overline;*/
+    font-size: 15px;
+    text-align:center;
+    line-height: 20px;
+    word-spacing:3px;
+    letter-spacing: 5px;
+    text-transform:capitalize;
+
+}
+.box{
+    padding: 20px;
+    height: 200px;
+    margin-left: 40px;
+    width: 200px;
+    background-color: violet;
+    border: 2px ridge black ;
+
+}
+  
