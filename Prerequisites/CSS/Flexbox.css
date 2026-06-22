@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.para{
+    /*text-decoration: overline;*/
+    font-size: 15px;
+    text-align:center;
+    line-height: 20px;
+    word-spacing:3px;
+    letter-spacing: 5px;
+    text-transform:capitalize;
+}
+.container{
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    display: flex;
+    margin-top: 20px;
+    height: 30%;
+    width: 80%;
+    background-color: grey;
+}
+.box{
+    
+    height: 90%;
+    width: 20%;
+    background-color:red;
+}
+#diff1{
+    background-color: indigo;
+}
+#diff2{
+    background-color: orange;
+}
+#diff3{
+    background-color: yellow;
+}
